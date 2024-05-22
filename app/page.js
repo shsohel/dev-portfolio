@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button";
 // component
 import Socials from "@/components/Socials";
 import Photo from "@/components/Photo";
+import Stats from "@/components/Stats";
 
 export default function Home() {
   return (
@@ -17,7 +18,7 @@ export default function Home() {
             <span className="text-xl ">Software Developer</span>
             <h1 className="h1 mb-6">
               Hello I'm <br />
-              <span className="text-accent">Programmer Sohel</span>
+              <span className="text-accent text-6xl">Programmer Sohel</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
               I excel at crafting elegant digital experiences and I am
@@ -47,6 +48,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <Stats />
     </section>
   );
 }

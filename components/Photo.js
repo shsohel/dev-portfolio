@@ -27,27 +27,28 @@ const Photo = () => {
               ease: "easeInOut",
             },
           }}
-          className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-lighten"
+          className="w-[298px] h-[298px] xl:w-[456px] xl:h-[456px] mix-blend-lighten absolute"
         >
           <Image
             src="/assets/photo2.png"
             priority
             quality={100}
             fill
-            className="object-contain rounded-full "
+            className="object-contain rounded-full p-1 "
             alt="photo"
           />
         </motion.div>
         {/* circle */}
         <motion.svg
-          className="w-[300px] xl:w-[506px] h-[300px] xl:h-[506px] "
+          className="w-[300px] xl:w-[460px] h-[300px] xl:h-[460px] "
           fill="transparent"
-          viewBox="0 0 506 506"
+          viewBox="0 0 460 460"
           xmlns="http://www.w3.org/2000/svg"
         >
           <motion.circle
-            cx="253"
-            r="250"
+            cx="230"
+            cy="230"
+            r="228"
             stroke="#00ff99"
             strokeWidth="4"
             strokeLinecap="round"
